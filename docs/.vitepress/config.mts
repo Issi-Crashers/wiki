@@ -2,9 +2,9 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "issi-crashers",
+  title: "issi-crashers Wiki",
   cleanUrls: true,
-  description: "Wiki",
+  description: "mindyuuサーバーの用語集・Q&Aを掲載するWiki",
   lang: "ja-JP",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config

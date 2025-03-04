@@ -11,8 +11,8 @@ hero:
       text: はじめに
       link: /getting_started
   image:
-    src: ./assets/issitransparent.png
-    alt: VitePress
+    src: https://files.catbox.moe/78wc6j.png
+    alt: ISSI
 
 features:
   - title: GTA5
