@@ -11,7 +11,7 @@ hero:
       text: はじめに
       link: /getting_started
   image:
-    src: /assets/issitransparent.png
+    src: ./assets/issitransparent.png
     alt: VitePress
 
 features:
