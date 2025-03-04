@@ -20,10 +20,10 @@ export default defineConfig({
       {text: 'Wiki',
         collapsed: false,
         items: [
-          //{
-          //  text: 'ページタイトル',
-          //  link: '/wiki/タイトル.md'
-          //}
+          {
+            text: '嫌われる行為',
+            link: '/wiki/嫌われる行為.md'
+          }
         ]
       }
     ],
