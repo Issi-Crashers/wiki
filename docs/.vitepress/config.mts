@@ -7,6 +7,9 @@ export default defineConfig({
   description: "mindyuuサーバーの用語集・Q&Aを掲載するWiki",
   lang: "ja-JP",
   themeConfig: {
+    search: {
+      provider: 'local'
+    },
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
@@ -17,13 +20,20 @@ export default defineConfig({
       {
         text: 'はじめに', link: '/getting_started.md'
       },
-      {text: 'Wiki',
-        collapsed: false,
-        items: [
+      {
+        text: 'Tips',
+        collapsed: true,
+        items:[
           {
             text: '嫌われる行為',
-            link: '/wiki/嫌われる行為.md'
+            link: '/tips/嫌われる行為.md'
           }
+        ]
+      },
+      {
+        text: 'Wiki',
+        collapsed: true,
+        items: [
         ]
       }
     ],
