@@ -34,6 +34,10 @@ export default defineConfig({
         text: 'Wiki',
         collapsed: true,
         items: [
+          {
+            text: '初めまして岡本',
+            link: '/wiki/初めまして岡本.md'
+          }
         ]
       }
     ],
