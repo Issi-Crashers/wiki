@@ -25,8 +25,8 @@ export default defineConfig({
         collapsed: true,
         items:[
           {
-            text: '嫌われる行為',
-            link: '/tips/嫌われる行為.md'
+            text: '推奨されない行為',
+            link: '/tips/推奨されない行為.md'
           }
         ]
       },
